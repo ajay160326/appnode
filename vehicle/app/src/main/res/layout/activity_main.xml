@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E0F7FA">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/insurance_logo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/app_name"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="goToLogin"
+        android:padding="10dp"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="goToRegister"
+        android:padding="10dp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnFileClaim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Claim"
+        android:onClick="goToFileClaim"
+        android:padding="10dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
