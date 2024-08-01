@@ -4,7 +4,7 @@
     val position: String,
     val salary: Double
 ) {
-     fun copy(name: String? = null, position: String? = null, salary: Double? = null): Employee {
+     fun copy( id: Int? = 1,name: String? = "Ajay", position: String? = "developer", salary: Double? = 500000.0): Employee {
          return Employee(
              id = this.id,
              name = name ?: this.name,
