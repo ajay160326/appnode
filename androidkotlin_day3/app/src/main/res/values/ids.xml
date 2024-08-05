@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="engineHealthBar" type="id" />
+    <item name="oilLevelBar" type="id" />
+    <item name="tirePressureBar" type="id" />
+</resources>
